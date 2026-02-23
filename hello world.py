@@ -17,6 +17,7 @@ def main():
     print("does this one work at least?")
     print("i think i've got it figured out, or at least a weird workaround")
     print("wait this might be easier than i thought ")
+    print("y'know printing is getting pretty dull")
 
 
 if __name__ == "__main__":
