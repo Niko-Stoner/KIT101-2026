@@ -1,0 +1,22 @@
+{
+    "New empty Python program": {
+        "prefix": "blank",
+        "body": [
+            "\"\"\"",
+            "Briefly describe the program",
+            "\"\"\"",
+            "",
+            "__author__ = \"Niko\"",
+            "",
+            "",
+            "def main():",
+            "    ...",
+            "",
+            "",
+            "if __name__ == \"__main__\":",
+            "    main()",
+            ""
+        ],
+        "description": "New empty Python program"
+    }
+}
