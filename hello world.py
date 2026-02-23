@@ -13,6 +13,7 @@ def main():
     print("a rubber room with rats")
     print("and rats make me crazy")
     print("tessssst")
+    print("holy shit")
 
 
 if __name__ == "__main__":
