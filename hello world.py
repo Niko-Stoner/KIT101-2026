@@ -14,6 +14,7 @@ def main():
     print("and rats make me crazy")
     print("tessssst")
     print("holy shit")
+    print("i swear to fucking god")
 
 
 if __name__ == "__main__":
