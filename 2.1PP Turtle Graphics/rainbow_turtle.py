@@ -15,8 +15,10 @@ def main():
     # Change turtle speed if desired
     # (1=slowest .. 10=fastest | 0=no animation)
     t.speed(3)
+    print(t.pos(), t.heading()) 
 
     t.penup()
+    t.pensize(10)
     t.left(135)
     t.forward(310)
     t.right(135)

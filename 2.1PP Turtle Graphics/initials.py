@@ -18,7 +18,9 @@ def main():
 
     # Draw your initials below, remembering to use painter.penup() to
     # move without drawing a line...
-
+    t.penup()
+    t.pensize(10)
+    t.left(135)
 
 
 
