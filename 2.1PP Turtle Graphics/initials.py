@@ -18,6 +18,7 @@ def main():
 
     # Draw your initials below, remembering to use painter.penup() to
     # move without drawing a line...
+    # moves to rhe start of the N, changes the pen size and colour
     t.penup()
     t.pensize(10)
     t.pencolor("magenta")
@@ -25,17 +26,20 @@ def main():
     t.forward(200)
     t.right(45)
     t.pendown()
+    #draws the N
     t.forward (120)
     t.right(150)
     t.forward(140)
     t.left(150)
     t.forward(120)
+    #moves to the start of the S and changes the colour
     t.penup()
     t.right(90)
     t.forward(300)
     t.right(180)
     t.pendown()
     t.pencolor("cyan")
+    # draws the S
     t.forward(60)
     t.left(90)
     t.forward(60)
@@ -50,6 +54,7 @@ def main():
     t.forward(300)
     t.pendown()
     t.pencolor("green")
+    # draws a circle 
     degree = 360
     while degree >0:
         t.forward(1)
