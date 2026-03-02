@@ -20,6 +20,7 @@ def main():
     t.left(135)
     t.forward(310)
     t.right(135)
+    t.pencolor("red")
     t.pendown()
     t.forward(100)
     t.right(90)
@@ -31,7 +32,6 @@ def main():
     print("Just for your information, the Turtle is now",
           "located at", t.pos(), "and",
           "pointing at an angle of", t.heading(), "degrees.")
-
     t.forward(100)
     t.right(90)
     t.forward(100)
@@ -41,6 +41,7 @@ def main():
     t.penup()
     t.forward(350)
     t.left(90)
+    t.pencolor("green")
     t.pendown()
     t.forward(100)
     t.right(120)
@@ -50,6 +51,7 @@ def main():
     t.right(120)
     t.penup()
     t.forward(300)
+    t.pencolor("blue")
     t.pendown()
     t.forward(100)
     t.right(90)
@@ -60,6 +62,7 @@ def main():
     t.forward(50)
     t.penup()
     t.forward(240)
+    t.pencolor("cyan")
     t.pendown()
     t.right(45)
     t.forward(150)
