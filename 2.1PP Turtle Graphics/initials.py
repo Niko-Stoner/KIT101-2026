@@ -53,7 +53,7 @@ def main():
     t.left(45)
     t.forward(300)
     t.pendown()
-    t.pencolor("green")
+    t.pencolor("lime")
     # draws a circle 
     degree = 360
     while degree >0:
