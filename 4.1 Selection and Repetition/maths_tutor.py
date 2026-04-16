@@ -9,6 +9,9 @@ from random import randint # used for generating random values
 
 
 def show_heading(heading: str):
+    heading: str = "beans beans beans"
+    print(heading.upper())
+    print("+" * len(heading))
     """
     Displays the given heading in ALL CAPS, underlined by plus (+) symbols
     and followed by a blank line.
