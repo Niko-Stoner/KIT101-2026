@@ -26,7 +26,11 @@ def display_entries(word_list: list[str]):
         print(word_list[list_pos] + ", ")
     ...
 def average_len(word_list: list[str]):
-    
+    ave_length: int
+    total_length: int
+    for i in word_list:
+        print(len.i)
+       # total: int = len.i
     """
     calulate the average length of the words in the list
 
