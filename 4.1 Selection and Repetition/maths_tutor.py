@@ -52,11 +52,16 @@ def run_tutorial(max: int, target: int) -> int:
     attempts = 0 # the total number of attempts made by the user
     num1: int = randint(1, max)
     num2: int = randint(1, max)
-    while numbercorrect <= target:
+    while numbercorrect < target:
         correct: bool = one_attempt(num1, num2) #TODO Change these dummy parameter values
-        attempts += 1
+        
+        num1: int = randint(1, max)
+        num2: int = randint(1, max)
         if correct == True:
             numbercorrect += 1
+            attempts += 1
+        else:
+            attempts += 1
 
     return attempts #TODO When implementing this function change this line to return attempts
 
