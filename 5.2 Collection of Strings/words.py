@@ -17,12 +17,16 @@ def add_word(word_list: list[str], word: str):
 
 
 def display_entries(word_list: list[str]):
+    list_pos: int = 0
     """
     Displays all words in the word list, separated by a comma.
     """
     # TODO: Complete the implementation of this function
+    for i in word_list:
+        print(word_list[list_pos] + ", ")
     ...
 def average_len(word_list: list[str]):
+    
     """
     calulate the average length of the words in the list
 
@@ -52,6 +56,10 @@ def main():
             display_entries(words)
         if choice == 3:
             average_len(words)
+        if choice == 4:
+            print("Goodbye")
+        else:
+            print("Please enter a valid action")
             
             
 
