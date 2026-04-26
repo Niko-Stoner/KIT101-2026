@@ -24,11 +24,22 @@ def one_attempt(num1: int, num2: int) -> bool:
     Tests the user's ability to answer a given problem, providing feedback on
     the attempt. Returns True if they answer correctly, False otherwise.
     """
+    correct: bool = True
+    answer: int = num1 - num2
     attempt: int # the user's typed answer
-
+    attempt = int(input(f"what is {num1} - {num2}? "))
+    if attempt == answer:
+        #return True
+        print("Correct!")
+    else:
+        #return False
+        print("Incorrect")
+        correct = False
+    return correct
+        
     #TODO Complete the implementation of this function
 
-    return False #TODO Update this line
+    #return False #TODO Update this line
 
 
 def run_tutorial(max: int, target: int) -> int:
@@ -37,12 +48,17 @@ def run_tutorial(max: int, target: int) -> int:
     problems correctly until a target number is answered correctly.
     Returns the total number of attempts.
     """
+    numbercorrect: int = 0
     attempts = 0 # the total number of attempts made by the user
+    num1: int = randint(1, max)
+    num2: int = randint(1, max)
+    while numbercorrect <= target:
+        correct: bool = one_attempt(num1, num2) #TODO Change these dummy parameter values
+        attempts += 1
+        if correct == True:
+            numbercorrect += 1
 
-    #TODO Complete the implementation of this function
-    one_attempt(10, 5) #TODO Change these dummy parameter values
-
-    return 1 #TODO When implementing this function change this line to return attempts
+    return attempts #TODO When implementing this function change this line to return attempts
 
 
 def main():
