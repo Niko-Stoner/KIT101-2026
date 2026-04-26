@@ -10,6 +10,8 @@ def add_word(word_list: list[str], word: str):
     Adds a new word to the word list if there is capacity and
     the word is not empty.
     """
+    word_list = word_list + word
+    return word_list
     # TODO: Complete the implementation of this function
     ...
 
@@ -20,6 +22,13 @@ def display_entries(word_list: list[str]):
     """
     # TODO: Complete the implementation of this function
     ...
+def average_len(word_list: list[str]):
+    """
+    calulate the average length of the words in the list
+
+    
+    """
+    
 
 
 def main():
@@ -42,6 +51,7 @@ def main():
         if choice == 2:
             display_entries(words)
         if choice == 3:
+            average_len(words)
             
             
 
